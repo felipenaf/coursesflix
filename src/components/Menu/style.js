@@ -9,7 +9,6 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
 
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -18,4 +17,9 @@ export const Nav = styled.nav`
 
   background: var(--black);
   border-bottom: 2px solid var(--primary);
+
+  @media (max-width: 800px) {
+    height: 40px;
+    justify-content: center;
+  }
 `
