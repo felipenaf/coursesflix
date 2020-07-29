@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Button from './components/Button'
+import Menu from './components/Menu'
 
 function App() {
   return (
     <div className="App">
-      <Button>
-        Olá
-      </Button>
+      <Menu />
     </div>
   );
 }
