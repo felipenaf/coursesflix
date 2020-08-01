@@ -14,6 +14,7 @@ export const Button = styled.a`
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
+    z-index: 100;
     &:hover,
     &:focus {
         opacity: .5;
